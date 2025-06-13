@@ -1,0 +1,82 @@
+/* Set global body font and background */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #e9f0f5; /* Changed background to soft blue */
+  color: #222; /* Default text color */
+}
+
+/* Style for headings */
+h2 {
+  color: #1a237e; /* Dark blue heading */
+}
+
+/* Input fields (text and email) */
+form input[type="text"],
+form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff;
+  color: #333;
+}
+
+/* Submit button styling */
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #00796b; /* Teal color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+form input[type="submit"]:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Table header and cell styles */
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  color: #333;
+}
+
+/* Table header background */
+th {
+  background-color: #2196f3; /* Blue header */
+  color: white;
+}
+
+/* Table row hover effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Link styling */
+a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Link hover effect */
+a:hover {
+  text-decoration: underline;
+  color: #0d47a1;
+}
