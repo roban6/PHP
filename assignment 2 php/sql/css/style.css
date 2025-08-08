@@ -1,0 +1,69 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 16px; /* Body basic font size */
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #13464c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem; /* Header  font size */
+}
+
+nav {
+  margin-top: 10px;
+  font-size: 1.1rem; /* Navigation links font size */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  font-size: 1.2rem; /* Main content font size */
+}
+
+form {
+  max-width: 500px;
+  margin-top: 20px;
+  font-size: 1rem; /* Form elements font size */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1rem; /* Input and textarea font size */
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 1rem; /* Button font size */
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem; /* Footer font size */
+}
